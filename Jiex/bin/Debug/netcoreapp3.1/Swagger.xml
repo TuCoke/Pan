@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Jiex</name>
+    </assembly>
+    <members>
+        <member name="P:Jiex.Base.IEntityStatus.Status">
+            <summary>
+            状态：-1-删除 0-禁用 1-正常
+            </summary>
+        </member>
+        <member name="M:Jiex.Controllers.HomeController.Get(Jiex.Handler.Homes.GetPostRequest)">
+            <summary>
+            获取
+            </summary>
+            <param name="request">get参数</param>
+            <returns></returns>
+        </member>
+        <member name="P:Jiex.EFcore.BaseEntity`1.Status">
+            <summary>
+            状态：-1-删除 0-禁用 1-正常
+            </summary>
+        </member>
+        <member name="P:Jiex.EFcore.BaseEntity`1.CreateOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Jiex.EFcore.BaseEntity`1.UpdateOn">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="T:Jiex.Handler.Homes.GetPostRequest">
+            <summary>
+            请求类型
+            </summary>
+        </member>
+        <member name="T:Jiex.Handler.Homes.GetPostItem">
+            <summary>
+            返回类型
+            </summary>
+        </member>
+        <member name="P:Jiex.Handler.Homes.GetPostItem.Title">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Jiex.Handler.Homes.GetPostItem.Type">
+            <summary>
+            类型
+            </summary>
+        </member>
+        <member name="P:Jiex.Handler.Homes.GetPostItem.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Jiex.Handler.Homes.GetPostItem.Status">
+            <summary>
+            状态：-1-删除 0-禁用 1-正常
+            </summary>
+        </member>
+        <member name="P:Jiex.Handler.Homes.GetPostItem.CreateOn">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Jiex.Handler.Homes.GetPostItem.UpdateOn">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="M:Jiex.Model.Common.PagedResultDto`1.#ctor(System.Collections.Generic.IEnumerable{`0},System.Int64,System.Int64)">
+            <summary>
+            返回
+            </summary>
+            <param name="data">T数据</param>
+            <param name="total">总数据条数</param>
+            <param name="pageTotal">分页返回的条数</param>
+        </member>
+    </members>
+</doc>
